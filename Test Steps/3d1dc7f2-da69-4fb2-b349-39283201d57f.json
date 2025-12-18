@@ -1,0 +1,20 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /en",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on link contactUs -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "link_contactUs"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>3d1dc7f2-da69-4fb2-b349-39283201d57f</id>
+        </flow>
+    </customField>
+    <description>Navigate to the English page and click on the Contact Us link. Verify that the user is redirected to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC2-Verify Contact Us Link Navigation</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>400d4ab0-71d5-4827-bba0-e385a3cc64ab</testCaseGuid>
+</TestCaseEntity>

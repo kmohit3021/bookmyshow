@@ -1,19 +1,179 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Submit Contact Us Form and Verify Home Page,"Navigate to the Contact Us page, fill in the required fields including name, email, and message, then submit the form and verify that the home page is displayed.","Step 1: Navigate to /contact-us
-Step 2: Click on input yourName
-Step 3: Enter input value in input yourName
-Step 4: Click on input surname
-Step 5: Enter input value in input surname
-Step 6: Click on input yourEmail
-Step 7: Enter input value in input yourEmail
-Step 8: Click on input contact
-Step 9: Enter input value in input contact
-Step 10: Click on input companyName
-Step 11: Enter input value in input companyName
-Step 12: Click on input city
-Step 13: Enter input value in input city
-Step 14: Click on textarea yourMessage
-Step 15: Enter input value in textarea yourMessage
-Step 16: Click on input send -> Navigate to page ''
-Step 17: Take full page screenshot as checkpoint
+2,Verify Contact Us Link Navigation,Navigate to the English page and click on the Contact Us link. Verify that the user is redirected to the home page.,"Step 1: Navigate to /en
+Step 2: Click on link contactUs -> Navigate to page ''
+Step 3: Take full page screenshot as checkpoint
 ",High,NEW
+8,Continue Shopping After Checkout,"Navigate to the English page, click on the checkout button, and then continue shopping. Verify that the user is redirected to the English page.","Step 1: Navigate to /en
+Step 2: Click on span buttonPlaceholder -> Navigate to page '/checkout'
+Step 3: Click on button continueShopping -> Navigate to page '/en'
+Step 4: Take full page screenshot as checkpoint
+",High,NEW
+7,Navigate to Promotions and Verify Page,"Access the collections page, go to the homepage, view promotions, and verify the promotions page before closing it.","Step 1: Navigate to /en/collections/g
+Step 2: Click on button goToHomepage -> Navigate to page '/en'
+Step 3: Click on link promotions -> Navigate to page '/en/p'
+Step 4: Click on image promocode -> Navigate to page '/en/p/WEMHXRWX'
+Step 5: Click on button close -> Navigate to page '/en/p'
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+5,Search and Buy Pass from Homepage,"Navigate to the homepage, perform a search for a specific pass, and complete the purchase process while verifying the home page.","Step 1: Navigate to /en
+Step 2: Click on div searchTrigger
+Step 3: Enter input value in input search
+Step 4: Click on link automationTestPass -> Navigate to page '/en/passes/*/*'
+Step 5: Click on button buyPass -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",High,NEW
+1,Book Tickets for Live Event and Complete Checkout,"Navigate to the English page, select a live event, book tickets, and fill in personal details. Confirm the booking and verify the checkout process.","Step 1: Navigate to /en
+Step 2: Click on link events -> Navigate to page '/en/collections/e'
+Step 3: Click on link eventLive -> Navigate to page '/en/events/bruno-mars-live/*'
+Step 4: Click on button bookNow -> Navigate to page '/booking/*/sessions'
+Step 5: Click on button sessionDate -> Navigate to page '/booking/*/tickets'
+Step 6: Click on button ticketQuantity (addQuantity)
+Step 7: Click on button addTicketQuantity
+Step 8: Click on button confirm -> Navigate to page '/checkout'
+Step 9: Click on button checkout -> Navigate to page '/checkout/patron'
+Step 10: Click on input fullName
+Step 11: Enter input value in input fullName
+Step 12: Click on input email
+Step 13: Enter input value in input email
+Step 14: Click on input confirmEmail
+Step 15: Enter input value in input confirmEmail
+Step 16: Click on input phone
+Step 17: Enter input value in input phone
+Step 18: Click on div indiaOption
+Step 19: Click on input phoneNumber
+Step 20: Enter input value in input phoneNumber
+Step 21: Click on button confirmDetails -> Navigate to page '/checkout/payment'
+Step 22: Click on link termsAndConditions
+Step 23: Click on button back -> Navigate to page ''
+Step 24: Take full page screenshot as checkpoint
+",Medium,NEW
+4,Purchase Event Pass and Complete Registration,"Navigate to the English page, search for an event pass, and purchase it. Fill in personal details and confirm the registration.","Step 1: Navigate to /en
+Step 2: Click on div searchTrigger
+Step 3: Enter input value in input search
+Step 4: Click on link automationTestPass -> Navigate to page '/en/passes/*/*'
+Step 5: Click on button buyPass -> Navigate to page '/en/purchase-options/passes/*'
+Step 6: Click on div automationTestPass
+Step 7: Increase quantity and confirm the selection
+	- Step 1: Click on button passQuantity
+	- Step 2: Click on button passQuantity
+	- Step 3: Click on button passQuantity
+	- Step 4: Click on button passQuantity
+	- Step 5: Click on button confirmPass
+Step 8: Click on button checkout -> Navigate to page '/checkout/patron'
+Step 9: Click on input fullName
+Step 10: Enter input value in input fullName
+Step 11: Click on input email
+Step 12: Enter input value in input email
+Step 13: Click on input confirmEmail
+Step 14: Enter input value in input confirmEmail
+Step 15: Click on input phone
+Step 16: Enter input value in input phone
+Step 17: Click on div indiaOption
+Step 18: Enter input value in input phoneNumber
+Step 19: Click on div subscribeToNewsletter
+Step 20: Click on input gender
+Step 21: Click on div selectMale
+Step 22: Click on input dob
+Step 23: Enter input value in input dob
+Step 24: Click on input passport
+Step 25: Enter input value in input passport
+Step 26: Click on textarea testing
+Step 27: Enter input value in textarea testing
+Step 28: Click on input enterPhone
+Step 29: Enter input value in input enterPhone
+Step 30: Click on div selectIndia
+Step 31: Enter input value in input phone2
+Step 32: Click on div multiChoiceOption
+Step 33: Click on div selectYes
+Step 34: Click on div patronInformation
+Step 35: Click on div subscribeNewsletter
+Step 36: Click on input nonMandatoryField
+Step 37: Enter input value in input nonMandatoryField
+Step 38: Click on button confirmDetails2 -> Navigate to page ''
+Step 39: Take full page screenshot as checkpoint
+",Low,NEW
+6,Complete Booking Pass Delivery with User Details,"Navigate to the booking page, confirm quantity, enter user details, and complete the booking process while verifying the home page.","Step 1: Navigate to /booking/*/pass/delivery
+Step 2: Increase quantity and confirm the selection
+	- Step 1: Click on button passQuantity
+	- Step 2: Click on button passQuantity
+	- Step 3: Click on button passQuantity
+	- Step 4: Click on button passQuantity
+	- Step 5: Click on button confirmPass
+Step 3: Click on button checkout -> Navigate to page '/checkout/patron'
+Step 4: Click on input fullName
+Step 5: Enter input value in input fullName
+Step 6: Click on input email
+Step 7: Enter input value in input email
+Step 8: Click on input confirmEmail
+Step 9: Enter input value in input confirmEmail
+Step 10: Click on input phone
+Step 11: Enter input value in input phone
+Step 12: Click on div indiaOption
+Step 13: Enter input value in input phoneNumber
+Step 14: Click on div subscribeToNewsletter
+Step 15: Click on input gender
+Step 16: Click on div selectMale
+Step 17: Click on input dob
+Step 18: Enter input value in input dob
+Step 19: Click on input passport
+Step 20: Enter input value in input passport
+Step 21: Click on textarea testing
+Step 22: Enter input value in textarea testing
+Step 23: Click on input enterPhone
+Step 24: Enter input value in input enterPhone
+Step 25: Click on div selectIndia
+Step 26: Enter input value in input phone2
+Step 27: Click on div transactionCustomInfo
+Step 28: Click on div multiChoiceOption
+Step 29: Click on div selectYes
+Step 30: Click on div patronInformation
+Step 31: Click on label clickCheckbox
+Step 32: Click on input nonMandatoryField
+Step 33: Enter input value in input nonMandatoryField
+Step 34: Click on label nonMandatoryField
+Step 35: Click on button confirmDetails2 -> Navigate to page ''
+Step 36: Take full page screenshot as checkpoint
+",Trivial,NEW
+3,Book Online Streaming Session and Confirm Details,"Navigate to the online streaming section, book a session, enter user details, and complete the booking while verifying the home page.","Step 1: Navigate to /en
+Step 2: Click on link onlineStreaming -> Navigate to page '/en/collections/o'
+Step 3: Click on link automationTestSession -> Navigate to page '/en/o/*/*'
+Step 4: Click on button bookNow
+Step 5: Click on button startNewCart -> Navigate to page '/en/purchase-options/o/*'
+Step 6: Click on div purchaseOptions -> Navigate to page '/booking/*/sessions'
+Step 7: Click on button sessionDate -> Navigate to page '/booking/*/tickets'
+Step 8: Click on button ticketQuantity (addQuantity)
+Step 9: Click on button ticketQuantity (addTicketQuantity2)
+Step 10: Click on button confirm2 -> Navigate to page '/checkout'
+Step 11: Click on button checkout -> Navigate to page '/checkout/patron'
+Step 12: Click on input fullName
+Step 13: Enter input value in input fullName
+Step 14: Click on input email
+Step 15: Enter input value in input email
+Step 16: Click on input confirmEmail
+Step 17: Enter input value in input confirmEmail
+Step 18: Click on input phone
+Step 19: Enter input value in input phone
+Step 20: Click on div indiaOption
+Step 21: Click on input phoneNumber
+Step 22: Enter input value in input phoneNumber
+Step 23: Click on div subscribeToNewsletter
+Step 24: Click on input gender
+Step 25: Click on div selectMale
+Step 26: Click on input dob
+Step 27: Enter input value in input dob
+Step 28: Click on input passport
+Step 29: Enter input value in input passport
+Step 30: Click on textarea testing
+Step 31: Enter input value in textarea testing
+Step 32: Click on div addressPlaceholder
+Step 33: Enter input value in input enterPhone
+Step 34: Click on div selectIndia
+Step 35: Enter input value in input phone2
+Step 36: Click on div multiChoiceOption
+Step 37: Click on div selectYes
+Step 38: Click on div subscribeNewsletter
+Step 39: Click on input nonMandatoryField
+Step 40: Enter input value in input nonMandatoryField
+Step 41: Click on button confirmDetails2 -> Navigate to page ''
+Step 42: Take full page screenshot as checkpoint
+",Trivial,NEW
