@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>3da009d0-9b95-4b37-a6cf-fbb28aa3c2b3</id>
+        </flow>
+    </customField>
+    <description>Navigate to the Contact Us page, fill in the required fields including name, email, and message, then submit the form and verify that the home page is displayed.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC1-Submit Contact Us Form and Verify Home Page</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>57d3df2e-3a17-4bbe-9a71-cd089c90e8bc</testCaseGuid>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 13: Enter input value in input city - (Input data variable)</description>
+        <id>7791f8dc-a2f6-444f-b5d6-e0f31bd4c78b</id>
+        <masked>false</masked>
+        <name>input_city</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 11: Enter input value in input companyName - (Input data variable)</description>
+        <id>7d67b73a-2377-469e-b7a3-e6f156b133e2</id>
+        <masked>false</masked>
+        <name>input_companyName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 9: Enter input value in input contact - (Input data variable)</description>
+        <id>7fffe4a1-768a-4166-aa56-01b715255957</id>
+        <masked>false</masked>
+        <name>input_contact</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 5: Enter input value in input surname - (Input data variable)</description>
+        <id>d6da68af-6ea0-4459-94db-a6b350857032</id>
+        <masked>false</masked>
+        <name>input_surname</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 7: Enter input value in input yourEmail - (Input data variable)</description>
+        <id>f406525b-363a-4aa4-9187-4fbc53b92f6c</id>
+        <masked>false</masked>
+        <name>input_yourEmail</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 3: Enter input value in input yourName - (Input data variable)</description>
+        <id>7b7984cd-4a02-42db-8fc4-a52ec848234d</id>
+        <masked>false</masked>
+        <name>input_yourName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 15: Enter input value in textarea yourMessage - (Input data variable)</description>
+        <id>140042b8-1e58-4a02-8de1-bc125e1a043c</id>
+        <masked>false</masked>
+        <name>textarea_yourMessage</name>
+    </variable>
+</TestCaseEntity>

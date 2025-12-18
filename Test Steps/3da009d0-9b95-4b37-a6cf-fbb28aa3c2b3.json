@@ -1,0 +1,90 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /contact-us",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on input yourName",
+            "sub_steps": [],
+            "target_name": "input_yourName"
+        },
+        {
+            "name": "Enter input value in input yourName",
+            "sub_steps": [],
+            "target_name": "input_yourName"
+        },
+        {
+            "name": "Click on input surname",
+            "sub_steps": [],
+            "target_name": "input_surname"
+        },
+        {
+            "name": "Enter input value in input surname",
+            "sub_steps": [],
+            "target_name": "input_surname"
+        },
+        {
+            "name": "Click on input yourEmail",
+            "sub_steps": [],
+            "target_name": "input_yourEmail"
+        },
+        {
+            "name": "Enter input value in input yourEmail",
+            "sub_steps": [],
+            "target_name": "input_yourEmail"
+        },
+        {
+            "name": "Click on input contact",
+            "sub_steps": [],
+            "target_name": "input_contact"
+        },
+        {
+            "name": "Enter input value in input contact",
+            "sub_steps": [],
+            "target_name": "input_contact"
+        },
+        {
+            "name": "Click on input companyName",
+            "sub_steps": [],
+            "target_name": "input_companyName"
+        },
+        {
+            "name": "Enter input value in input companyName",
+            "sub_steps": [],
+            "target_name": "input_companyName"
+        },
+        {
+            "name": "Click on input city",
+            "sub_steps": [],
+            "target_name": "input_city"
+        },
+        {
+            "name": "Enter input value in input city",
+            "sub_steps": [],
+            "target_name": "input_city"
+        },
+        {
+            "name": "Click on textarea yourMessage",
+            "sub_steps": [],
+            "target_name": "textarea_yourMessage"
+        },
+        {
+            "name": "Enter input value in textarea yourMessage",
+            "sub_steps": [],
+            "target_name": "textarea_yourMessage"
+        },
+        {
+            "name": "Click on input send -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "input_send"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}
