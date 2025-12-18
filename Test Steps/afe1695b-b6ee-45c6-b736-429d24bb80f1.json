@@ -1,0 +1,125 @@
+{
+    "version": "3",
+    "steps": [
+        {
+            "name": "Navigate to /en",
+            "sub_steps": [],
+            "target_name": ""
+        },
+        {
+            "name": "Click on link events -> Navigate to page '/en/collections/e'",
+            "sub_steps": [],
+            "target_name": "link_events"
+        },
+        {
+            "name": "Click on link eventLive -> Navigate to page '/en/events/bruno-mars-live/*'",
+            "sub_steps": [],
+            "target_name": "link_eventLive"
+        },
+        {
+            "name": "Click on button bookNow -> Navigate to page '/booking/*/sessions'",
+            "sub_steps": [],
+            "target_name": "button_bookNow"
+        },
+        {
+            "name": "Click on button sessionDate -> Navigate to page '/booking/*/tickets'",
+            "sub_steps": [],
+            "target_name": "button_sessionDate"
+        },
+        {
+            "name": "Click on button ticketQuantity (addQuantity)",
+            "sub_steps": [],
+            "target_name": "button_ticketQuantity"
+        },
+        {
+            "name": "Click on button addTicketQuantity",
+            "sub_steps": [],
+            "target_name": "button_addTicketQuantity"
+        },
+        {
+            "name": "Click on button confirm -> Navigate to page '/checkout'",
+            "sub_steps": [],
+            "target_name": "button_confirm"
+        },
+        {
+            "name": "Click on button checkout -> Navigate to page '/checkout/patron'",
+            "sub_steps": [],
+            "target_name": "button_checkout"
+        },
+        {
+            "name": "Click on input fullName",
+            "sub_steps": [],
+            "target_name": "input_fullName"
+        },
+        {
+            "name": "Enter input value in input fullName",
+            "sub_steps": [],
+            "target_name": "input_fullName"
+        },
+        {
+            "name": "Click on input email",
+            "sub_steps": [],
+            "target_name": "input_email"
+        },
+        {
+            "name": "Enter input value in input email",
+            "sub_steps": [],
+            "target_name": "input_email"
+        },
+        {
+            "name": "Click on input confirmEmail",
+            "sub_steps": [],
+            "target_name": "input_confirmEmail"
+        },
+        {
+            "name": "Enter input value in input confirmEmail",
+            "sub_steps": [],
+            "target_name": "input_confirmEmail"
+        },
+        {
+            "name": "Click on input phone",
+            "sub_steps": [],
+            "target_name": "input_phone"
+        },
+        {
+            "name": "Enter input value in input phone",
+            "sub_steps": [],
+            "target_name": "input_phone"
+        },
+        {
+            "name": "Click on div indiaOption",
+            "sub_steps": [],
+            "target_name": "div_indiaOption"
+        },
+        {
+            "name": "Click on input phoneNumber",
+            "sub_steps": [],
+            "target_name": "input_phoneNumber"
+        },
+        {
+            "name": "Enter input value in input phoneNumber",
+            "sub_steps": [],
+            "target_name": "input_phoneNumber"
+        },
+        {
+            "name": "Click on button confirmDetails -> Navigate to page '/checkout/payment'",
+            "sub_steps": [],
+            "target_name": "button_confirmDetails"
+        },
+        {
+            "name": "Click on link termsAndConditions",
+            "sub_steps": [],
+            "target_name": "link_termsAndConditions"
+        },
+        {
+            "name": "Click on button back -> Navigate to page ''",
+            "sub_steps": [],
+            "target_name": "button_back"
+        },
+        {
+            "name": "Take full page screenshot as checkpoint",
+            "sub_steps": [],
+            "target_name": ""
+        }
+    ]
+}

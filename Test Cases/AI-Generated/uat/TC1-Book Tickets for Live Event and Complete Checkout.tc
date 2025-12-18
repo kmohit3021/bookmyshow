@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>afe1695b-b6ee-45c6-b736-429d24bb80f1</id>
+        </flow>
+    </customField>
+    <description>Navigate to the English page, select a live event, book tickets, and fill in personal details. Confirm the booking and verify the checkout process.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC1-Book Tickets for Live Event and Complete Checkout</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>bb20ce5c-6857-4ef9-94d2-030a7f8cf70a</testCaseGuid>
+    <variable>
+        <defaultValue>'0'</defaultValue>
+        <description>Step 6: Click on button ticketQuantity (addQuantity) - (Dynamic locator variable)</description>
+        <id>c87efd11-a7e3-4dfd-a635-0fda02cb4a6a</id>
+        <masked>false</masked>
+        <name>button_ticketQuantity_nth_1</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 15: Enter input value in input confirmEmail - (Input data variable)</description>
+        <id>ca76c01c-1f19-4dff-b8bd-88f2db6551c6</id>
+        <masked>false</masked>
+        <name>input_confirmEmail</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 13: Enter input value in input email - (Input data variable)</description>
+        <id>c8c3f402-32cb-405c-8082-5c17503be9c2</id>
+        <masked>false</masked>
+        <name>input_email</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 11: Enter input value in input fullName - (Input data variable)</description>
+        <id>ea0b2900-dc73-4fb2-8751-385256d0e997</id>
+        <masked>false</masked>
+        <name>input_fullName</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 17: Enter input value in input phone - (Input data variable)</description>
+        <id>fe7116b2-68a0-49ed-90d6-4133406afe88</id>
+        <masked>false</masked>
+        <name>input_phone</name>
+    </variable>
+    <variable>
+        <defaultValue>''</defaultValue>
+        <description>Step 20: Enter input value in input phoneNumber - (Input data variable)</description>
+        <id>815c3963-5138-4c6c-a609-decb7b01d469</id>
+        <masked>false</masked>
+        <name>input_phoneNumber</name>
+    </variable>
+</TestCaseEntity>
